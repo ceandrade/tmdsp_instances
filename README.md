@@ -1,4 +1,4 @@
-TMDSP Instances License
+TMDSP Instances
 ========================
 
 These are instances of the Time- and Machine-Dependent Scheduling Problem
