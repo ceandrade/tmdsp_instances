@@ -7,6 +7,7 @@ according to the time. In each period, a given job can be executed in a subset
 of machines with different capacities and productions rates. The objective is
 to deploy a feasible schedule with the minimum total completion time. For more
 details, see
+[this paper](https://ceandrade.github.io/publication/andrade-2019-pfsp-brkga-shaking)
 
 > C. E. Andrade, S. D. Byers, V. Gopalakrishnan, E. Halepovic, D. J. Poole,
 > L. K. Tran, C. T. Volinsky. Scheduling software updates for connected cars
@@ -29,7 +30,7 @@ tag. This is an example:
 
 ```
 ###############################################################################
-# (c) Copyright 2018
+# (c) Copyright 2019
 #     AT&T Labs Research.
 #     All Rights Reserved.
 #

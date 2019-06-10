@@ -1,7 +1,7 @@
 TMDSP Instances License
 ========================
 
-Copyright (c) 2018, AT&T Intellectual Property. All other rights reserved.
+Copyright (c) 2019, AT&T Intellectual Property. All other rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -22,7 +22,8 @@ modification, are permitted provided that the following conditions are met:
    prior written permission.
 
 5. All publications, softwares, or any other materials mentioning features or
-   use of this software must cite explicitly cite:
+   use of this software and/or the data used to test it
+   must cite explicitly the following article:
    
 > C. E. Andrade, S. D. Byers, V. Gopalakrishnan, E. Halepovic, D. J. Poole,
 > L. K. Tran, C. T. Volinsky. Scheduling software updates for connected cars
