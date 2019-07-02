@@ -7,12 +7,26 @@ according to the time. In each period, a given job can be executed in a subset
 of machines with different capacities and productions rates. The objective is
 to deploy a feasible schedule with the minimum total completion time. For more
 details, see
-[this paper](https://ceandrade.github.io/publication/andrade-2019-pfsp-brkga-shaking)
+[this paper](https://ceandrade.github.io/publication/andrade-2019-scheduling-fota)
 
-> C. E. Andrade, S. D. Byers, V. Gopalakrishnan, E. Halepovic, D. J. Poole,
-> L. K. Tran, C. T. Volinsky. Scheduling software updates for connected cars
-> with limited availability. Applied Soft Computing XX (2019) xx–xx,
-> DOI [j.asoc.201x.xx.xxx](http://dx.doi.org/10.1016/j.asoc.201x.xx.xxx)
+> C.E. Andrade, S.D. Byers, V. Gopalakrishnan, E. Halepovic, D.J. Poole,
+> L.K. Tran, C.T. Volinsky. Scheduling software updates for connected cars
+> with limited availability. Applied Soft Computing 82 (2019) 105575,
+> DOI [10.1016/j.asoc.2019.105575](http://dx.doi.org/10.1016/j.asoc.2019.105575)
+
+
+We have 3 groups of instances:
+
+- Synthetic: 60 files, total of 1 MB;
+
+- Common jobs: 71 files, total of 1.1GB;
+
+- Rare jobs: 82 files, total of 1.1GB.
+
+Note that the `common ` and `rare` subsets are large real-world instances, with
+interest by the industry. While `synthetic` set can be used to test-proof your
+strategy, we recommend testing all large instances for meaningful value of your
+code.
 
 These instances are release under modified BSD license. When using these
 instances or derivative works, you must cite the above paper (Andrade et al.,
